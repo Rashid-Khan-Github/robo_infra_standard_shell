@@ -3,8 +3,8 @@ Description = Cart Service
 [Service]
 User=roboshop
 Environment=REDIS_HOST=redis.bsebregistration.com
-Environment=CATALOGUE_HOST=catalogue.bsebregistration.com
-Environment=CATALOGUE_PORT=8080
+Environment=CATALOGUE_HOST=catalogue.app.bsebregistration.com
+Environment=CATALOGUE_PORT=80
 ExecStart=/bin/node /app/server.js
 SyslogIdentifier=cart
 

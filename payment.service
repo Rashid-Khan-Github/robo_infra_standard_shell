@@ -4,10 +4,10 @@ Description=Payment Service
 [Service]
 User=root
 WorkingDirectory=/app
-Environment=CART_HOST=cart.bsebregistration.com
-Environment=CART_PORT=8080
-Environment=USER_HOST=user.bsebregistration.com
-Environment=USER_PORT=8080
+Environment=CART_HOST=cart.app.bsebregistration.com
+Environment=CART_PORT=80
+Environment=USER_HOST=user.app.bsebregistration.com
+Environment=USER_PORT=80
 Environment=AMQP_HOST=rabbitmq.bsebregistration.com
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
